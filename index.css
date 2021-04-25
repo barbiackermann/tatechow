@@ -1,0 +1,326 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(43, 14, 80);
+}
+.logo{
+    width: 80%;
+    justify-content: center;
+    margin: 4vw auto auto auto;
+}
+.leonardo{
+    width: 90%;
+    margin-left: 6vw;
+    margin-top: 2vw;
+}
+h3{
+    font-weight: 600;
+    font-size: 1.25vw;
+}
+span{
+    font-size: 3vw;
+}
+.items{
+    margin-top: 4vw;
+    font-size: 0.8vw;
+}
+.indicator-container{
+    margin: 4vw auto auto auto;
+}
+.indicator{
+    display: inline;
+}
+#indicator{
+    display: inline;
+    color: rgb(217, 255, 0);
+    font-weight: 900;
+    padding: 1vw;
+    text-shadow: 0.25vw 0.20vw rgb(0, 0, 99);
+}
+#restart{
+    display: block;
+    font-weight: 900;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: magenta;
+    border: 3px solid yellow;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    margin: 1vw auto 2vw auto;
+}
+.result{
+    margin: 2vw auto 0 auto;
+}
+#result{
+    margin: 1vw auto 0 auto;
+    animation-name: winner;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    text-align: center;
+    text-shadow: 0.25vw 0.25vw rgb(9, 255, 0);
+    font-size: 3.5vw;
+}
+@keyframes winner {
+    0% {color: yellow;}
+    50% {color: magenta;}
+    100%{color:  rgb(0, 0, 99)}
+}
+body{
+    background-image: url(./src/img/holographic-pattern-.jpg);
+}
+#A{
+    background-image: url(./src/img/yetta.jpeg);
+}
+#B{
+    background-image: url(./src/img/chuerk.jpeg);
+}
+#C{
+    background-image: url(./src/img/bart.jpeg);
+}
+#D{
+    background-image: url(./src/img/jem.jpeg);
+}
+#E{
+    background-image: url(./src/img/matilda.jpeg);
+}
+#F{
+    background-image: url(./src/img/batman.jpeg);
+}
+#G{
+    background-image: url(./src/img/goku.jpeg);
+}
+#H{
+    background-image: url(./src/img/hermione.jpeg);
+}
+#I{
+    background-image: url(./src/img/truchete.jpeg);
+}
+button{
+    outline:none !important;
+}
+.btn{
+    width: 13vw;
+    height: 13vw;
+    margin: 0.5vw;
+    background-size: contain;
+    border: 10px solid rgb(0,30,76);
+    border-style: outset;
+    color: rgb(217, 255, 0);
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 16.25vw;
+}
+.btn:hover{
+    color: rgb(217, 255, 0);
+}
+.btn:active{
+    border: none;
+}
+.btn2{
+    width: 13vw;
+    height: 13vw;
+    margin: 0.5vw;
+    background-size: contain;
+    color: rgb(217, 255, 0);
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 16.25vw;
+    border: 10px solid rgb(217, 255, 0);
+    border-style: outset;
+}
+.btn2:hover{
+    color: rgb(217, 255, 0);
+}
+.btn2:active{
+    border: none;
+}
+.btn3{
+    width: 13vw;
+    height: 13vw;
+    margin: 0.5vw;
+    background-size: contain;
+    color: magenta;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 16.25vw;
+    border: 10px solid magenta;
+    border-style: outset;
+}
+.btn3:hover{
+    color: magenta;
+}
+.btn3:active{
+    border: none;
+}
+.copy{
+    margin: 0;
+    position: fixed;
+    font-size: 1vw;
+    bottom: 0;
+    background-color: mediumaquamarine;
+    padding-top: 0.75vw;
+    padding-bottom: 0.5vw;
+}
+a{
+    color: magenta;
+}
+/* MOBILE */
+@media (max-width: 768px){
+    .logo{
+        width: 60%;
+        justify-content: center;
+        margin: 4vw auto auto auto;
+    }
+    .leonardo{
+        width: 100%;
+        margin-left: 1vh;
+        margin-top: 4vh;
+        padding-left: 2vh;
+    }
+    h3{
+        font-weight: 600;
+        font-size: 1.25vh;
+    }
+    span{
+        font-size: 3vh;
+    }
+    .d-sm-flex{
+        margin: 1vh auto;
+    }
+    .leo-container{
+        padding: 0 !important;
+        margin-bottom: 7vh;
+    }
+    .items{
+        margin: 4vh 0 0 0;
+        padding: 0 5vh 0 0;
+        font-size: 1vh;
+    }
+    .indicator-container{
+        margin: 4vh auto auto auto;
+    }
+    .indicator{
+        display: inline;
+        font-size: 3vh;
+    }
+    #indicator{
+        display: inline;
+        color: rgb(217, 255, 0);
+        font-weight: 900;
+        padding: 1vh;
+        text-shadow: 0.25vw 0.20vw rgb(0, 0, 99);
+    }
+    #restart{
+        display: block;
+        font-weight: 900;
+        font-size: 1.5vh;
+        text-align: center;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: magenta;
+        border: 0.vh solid yellow;
+        padding: 0.375rem 0.75rem;
+        border-radius: 0.25rem;
+        -webkit-border-radius: 0.25rem;
+        -moz-border-radius: 0.25rem;
+        -ms-border-radius: 0.25rem;
+        -o-border-radius: 0.25rem;
+        margin: 2vh auto 3vh auto;
+    }
+    .result{
+        margin: 2vh auto 0 auto;
+    }
+    #result{
+        margin: 1vh auto 2vh auto;
+        animation-name: winner;
+        animation-duration: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        text-align: center;
+        text-shadow: 0.25vw 0.25vw rgb(9, 255, 0);
+        font-size: 5vh;
+    }
+    @keyframes winner {
+        0% {color: yellow;}
+        50% {color: magenta;}
+        100%{color:  rgb(0, 0, 99)}
+    }
+    body{
+        background-image: url(./src/img/holographic-pattern-.jpg);
+    }
+    button{
+        outline:none !important;
+    }
+    .btn{
+        width: 15vh;
+        height: 15vh;
+        margin: 0.5vh;
+        background-size: contain;
+        border: 0.5vh solid rgb(0,30,76);
+        border-style: outset;
+        color: rgb(217, 255, 0);
+    }
+    .btn:hover{
+        color: rgb(217, 255, 0);
+    }
+    .btn:active{
+        border: none;
+    }
+    .btn2{
+        width: 15vh;
+        height: 15vh;
+        margin: 0.5vw;
+        background-size: contain;
+        color: rgb(217, 255, 0);
+        font-size: 4vh;
+        font-weight: 900;
+        line-height: 19vh;
+        border: 0.5vh solid rgb(217, 255, 0);
+        border-style: outset;
+    }
+    .btn2:hover{
+        color: rgb(217, 255, 0);
+    }
+    .btn2:active{
+        border: none;
+    }
+    .btn3{
+        width: 15vh;
+        height: 15vh;
+        margin: 0.5vw;
+        background-size: contain;
+        color: magenta;
+        font-size: 4vh;
+        font-weight: 900;
+        line-height: 19vh;
+        border: 0.5vh solid magenta;
+        border-style: outset;
+    }
+    .btn3:hover{
+        color: magenta;
+    }
+    .btn3:active{
+        border: none;
+    }
+    .copy{
+        margin: 3vh auto 0 auto;
+        position: fixed;
+        font-size: 1.5vh;
+        bottom: 0;
+        background-color: mediumaquamarine;
+        padding-top: 0.75vh;
+        padding-bottom: 0.5vh;
+    }
+    a{
+        color: magenta;
+    }
+}
