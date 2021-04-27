@@ -73,7 +73,7 @@ span{
     100%{color:  rgb(0, 0, 99)}
 }
 body{
-    background-image: url(./src/img/holographic-pattern-.jpg);
+    background-color: rgb(167, 228, 252);
 }
 #A{
     background-image: url(./src/img/yetta.jpeg);
