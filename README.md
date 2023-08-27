@@ -1,5 +1,5 @@
 # Tatechow
-Tatetí creado con 💗 por 👩‍💻 [Bárbara Ackermann] (https://www.linkedin.com/in/barchuackermann/) con dibujos de 💀 [Panulo] (https://www.instagram.com/panulonulo/).
+Tatetí creado con 💗 por 👩‍💻 [Bárbara Ackermann](https://www.linkedin.com/in/barchuackermann/) con dibujos de 💀 [Panulo](https://www.instagram.com/panulonulo/).
 
 - HTML
 - CSS
